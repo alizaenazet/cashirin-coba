@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "cashirin-api-6"
+resolve_s3 = true
+s3_prefix = "cashirin-api-6"
+region = "ap-southeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["CashirinFunction=433587632824.dkr.ecr.ap-southeast-1.amazonaws.com/cashirinapi05bc0887/cashirinfunction1d3f9aaarepo"]
